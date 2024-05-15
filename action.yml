@@ -1,0 +1,16 @@
+# action.yml
+name: 'telegraf'
+description: 'run telegraf'
+# inputs:
+#   who-to-greet:  # id of input
+#     description: 'Who to greet'
+#     required: true
+#     default: 'World'
+# outputs:
+#   msg: # id of output
+#     description: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  # args:
+  #   - ${{ inputs.who-to-greet }}
